@@ -1,0 +1,188 @@
+{
+  "description" : "Rules for Atom and GitHub Desktop",
+  "name" : "Dev Tools",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1578849752.7581902,
+      "modificationDate" : 1578849752.7581902,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "github.com",
+      "via" : "\/Applications\/Atom.app\/Contents\/Frameworks\/Atom Helper.app\/Contents\/MacOS\/Atom Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575257247.7902009,
+      "modificationDate" : 1575257247.7902009,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "npmjs.org",
+      "via" : "\/Applications\/Atom.app\/Contents\/Resources\/app\/apm\/bin\/node"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1603856551.6965189,
+      "modificationDate" : 1603856551.6965189,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1516082562.356854,
+      "modificationDate" : 1516082562.356854,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "atom.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1548649549.9013019,
+      "modificationDate" : 1548649549.9013019,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1558236442.6386509,
+      "modificationDate" : 1558236442.6386509,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1595691402.890444,
+      "modificationDate" : 1595691402.890444,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575257271.9704771,
+      "modificationDate" : 1575257271.9704771,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "gitter.im"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575257267.90925,
+      "modificationDate" : 1575257267.90925,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-domains" : "travis-ci.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1615855233.2768979,
+      "modificationDate" : 1615855233.2768979,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/Frameworks\/Atom Helper (Renderer).app\/Contents\/MacOS\/Atom Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-domains" : "atom.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1615855576.616333,
+      "modificationDate" : 1615855576.616333,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/Frameworks\/Atom Helper (Renderer).app\/Contents\/MacOS\/Atom Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1615855574.4489222,
+      "modificationDate" : 1615855574.4489222,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/Frameworks\/Atom Helper (Renderer).app\/Contents\/MacOS\/Atom Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-domains" : "npmjs.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1548649384.3937001,
+      "modificationDate" : 1548649384.3937001,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "protocol" : "tcp",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1548650244.9425311,
+      "modificationDate" : 1548650244.9425311,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "protocol" : "tcp",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1595691716.321703,
+      "modificationDate" : 1595691716.321703,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "protocol" : "tcp",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1548649429.799382,
+      "modificationDate" : 1548649429.799382,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "protocol" : "tcp",
+      "remote-domains" : "gravatar.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1610813118.410907,
+      "modificationDate" : 1610813118.410907,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1610814471.6432891,
+      "modificationDate" : 1610814471.6432891,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-domains" : "gitlab.com"
+    }
+  ]
+}

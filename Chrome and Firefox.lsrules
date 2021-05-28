@@ -1,0 +1,76 @@
+{
+  "description" : "Rules for Chrome and Firefox",
+  "name" : "Browsers: Chrome and Firefox",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1512089826.3693619,
+      "modificationDate" : 1512089826.3693619,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1512089819.5289919,
+      "modificationDate" : 1512089819.5289919,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1531925608.382338,
+      "modificationDate" : 1531925608.382338,
+      "owner" : "me",
+      "ports" : "5228",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1512427333.8171549,
+      "modificationDate" : 1512427333.8171549,
+      "owner" : "me",
+      "ports" : "53",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1512092421.200464,
+      "modificationDate" : 1512092421.200464,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1512089693.4446759,
+      "modificationDate" : 1512089693.4446759,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1603005801.1331329,
+      "modificationDate" : 1603005801.1331329,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any"
+    }
+  ]
+}
