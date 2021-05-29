@@ -1,0 +1,157 @@
+{
+  "description" : "Rules for Safari, Chrome, and Firefox",
+  "name" : "Browsers",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1622229157.1826439,
+      "modificationDate" : 1622229157.1826439,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "protocol" : "tcp",
+      "remote-domains" : "safebrowsing.apple"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622229163.930692,
+      "modificationDate" : 1622229163.930692,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "protocol" : "tcp",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622232814.4324501,
+      "modificationDate" : 1622232814.4324501,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "protocol" : "tcp",
+      "remote-domains" : "safebrowsing.apple"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622236076.0048771,
+      "owner" : "any",
+      "ports" : "80",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622236076.0048771,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1622232130.31844,
+      "modificationDate" : 1622241734.637331,
+      "owner" : "me",
+      "ports" : "1900",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622241737.196548,
+      "modificationDate" : 1622241737.196548,
+      "owner" : "me",
+      "ports" : "1900",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622249217.44629,
+      "owner" : "any",
+      "ports" : "5228",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622236076.0048771,
+      "owner" : "any",
+      "ports" : "53",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622236076.0048771,
+      "owner" : "any",
+      "ports" : "80",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622236076.0048771,
+      "modificationDate" : 1622236076.0048771,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1622236076.0048771,
+      "disabled" : true,
+      "modificationDate" : 1622248087.782553,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1622246207.274399,
+      "modificationDate" : 1622246207.274399,
+      "owner" : "me",
+      "ports" : "5228",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622249305.3919821,
+      "modificationDate" : 1622249305.3919821,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1622234143.3213592,
+      "modificationDate" : 1622234143.3213592,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}
