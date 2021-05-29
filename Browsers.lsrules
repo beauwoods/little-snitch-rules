@@ -54,26 +54,6 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1622232130.31844,
-      "modificationDate" : 1622241734.637331,
-      "owner" : "me",
-      "ports" : "1900",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "protocol" : "udp",
-      "remote-addresses" : "239.255.255.250"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1622241737.196548,
-      "modificationDate" : 1622241737.196548,
-      "owner" : "me",
-      "ports" : "1900",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "protocol" : "udp",
-      "remote-addresses" : "239.255.255.250"
-    },
-    {
-      "action" : "deny",
       "creationDate" : 1622236076.0048771,
       "modificationDate" : 1622249217.44629,
       "owner" : "any",
