@@ -94,17 +94,6 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1622236076.0048771,
-      "disabled" : true,
-      "modificationDate" : 1622248087.782553,
-      "owner" : "any",
-      "ports" : "443",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "protocol" : "udp",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
       "creationDate" : 1622246207.274399,
       "modificationDate" : 1622246207.274399,
       "owner" : "me",
